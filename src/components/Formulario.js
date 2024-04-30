@@ -11,12 +11,12 @@ const Formulario = ({guardarCategoria}) => {
         { value: 'health', label: 'Salud' },
         { value: 'science', label: 'Ciencia' },
         { value: 'sports', label: 'Deportes' },
-        { value: 'technology', label: 'Tecnologia' },
+        { value: 'technology', label: 'Tecnología' },
     ];
 
     // custom hook
     const [ categoria, SelectNoticias ] = useSelect('general', OPCIONES);
-    //  Enviar al formulario, pasar categoria a App.js
+    //  Enviar al formulario, pasar categoría a App.js
     const buscarNoticias = e => {
         e.preventDefault();
 
