@@ -1,4 +1,8 @@
+#	 API de Noticias
 
+La version actual gratuita de la API **News API** solo permite TESTEAR la api sin imagenes y solo funciona de manera local.
+
+<p align="center"><img src="screencapture.png" /></p>
 
 
 ## [DEMO]()
